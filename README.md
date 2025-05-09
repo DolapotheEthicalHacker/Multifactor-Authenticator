@@ -1,64 +1,41 @@
-# Multifactor Authenticator
 
-This project is a simple implementation of a Multifactor Authentication system, created by *DolapotheEthicalHacker*. It adds an extra layer of security by combining multiple methods of identity verification before granting access.
+# Multifactor Authenticator (TOTP-Based)
+
+This project is a basic implementation of a time-based one-time password (TOTP) authenticator using Python. Created by *DolapotheEthicalHacker*, it simulates a secure login system using QR codes and OTPs generated via authenticator apps like Google Authenticator or Authy.
 
 ## 🔐 Features
 
-- Password-based authentication  
-- Time-based OTP (One-Time Password) authentication using Google Authenticator or similar  
-- QR code generation for easy setup  
-- OTP verification for secure access
+- Time-based One-Time Password (TOTP) generation
+-  OTP verification using pyotp
+- QR code creation for easy setup with mobile authenticator apps
+- Simple and clear user flow
 
-## 📁 Files
+## 📁 File
 
-- file1.py: The main script implementing the multifactor authentication logic.
+- file1.py: The main Python script containing the TOTP logic and QR code generation.
 
 ## 🛠 Requirements
 
-This project runs on *Python 3.x*.
+Ensure you have Python 3 installed. You also need the following Python libraries:
 
-To install required packages, if any, you can use:
+- pyotp
+- qrcode
+- pillow (required for qrcode to display the image)
 
-bash
-pip install -r requirements.txt
-(Add this only if you have a requirements.txt file)
+To install all requirements, run:
 
-🚀 Getting Started
-Clone this repository:
+```bash
+pip install pyotp qrcode pillow
 
-bash
-Copy code
+Getting Started
+
 git clone https://github.com/DolapotheEthicalHacker/Multifactor-Authenticator.git
 
 cd Multifactor-Authenticator
 
-Run the Python script:
+Run the Script
 
-bash
-Copy code
 python3 file1.py
-Follow the on-screen instructions to complete authentication.
-
-✅ Future Improvements
-Integration with real email or SMS APIs
-
-User database for managing credentials
-
-Web interface
-
-📜 License
-This project is open-source and available under the MIT License.
 
 Made with 💻 by DolapotheEthicalHacker
 
-yaml
-Copy code
-
----
-
-Once pasted, save it as `README.md` in your project folder, then run:
-
-bash
-git add README.md
-git commit -m "Added README file"
-git push
