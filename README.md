@@ -29,7 +29,9 @@ Clone this repository:
 bash
 Copy code
 git clone https://github.com/DolapotheEthicalHacker/Multifactor-Authenticator.git
+
 cd Multifactor-Authenticator
+
 Run the Python script:
 
 bash
