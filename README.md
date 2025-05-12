@@ -53,10 +53,17 @@ pip install pyotp qrcode pillow
 
 ## ✅ How to Run
 
+Once pasted, save it as `README.md` in your project folder, then run:
+
+bash
+git add README.md
+git commit -m "Added README file"
+git push
 1. Clone the repository:
 
 bash
 git clone https://github.com/Dolapotheethicalhacker/Multifactor-Authenticator.git
+
 cd Multifactor-Authenticator
 
 
